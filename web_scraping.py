@@ -7,7 +7,7 @@ os.system('cls')
 
 def busca_salarios_glassdoor(url):
     # Definindo um Browser como agente de busca 
-    hearders = {'user-agent' : 'Chrome'}
+    hearders = {'user-agent' : 'Chrome/111.0.0.0'}
 
     # Fazendo a requisição do conteudo da url utilizando o chrome como user agent
     resposta = requests.get(url,
